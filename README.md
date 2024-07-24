@@ -21,7 +21,7 @@ This project implements a real-time object detection system using YOLOv4-tiny an
 
 1. Clone this repository:
    ```
-   git clone https://github.com/your-username/real-time-object-detection.git
+   git clone https://github.com/Raghavrs1999/Custom-object-detection-with-.exe.git
    cd real-time-object-detection
    ```
 
@@ -66,7 +66,7 @@ This project implements a real-time object detection system using YOLOv4-tiny an
 ## Customization
 
 - To add or remove detectable objects, modify the `add_button` calls in `Object detector.py`.
-- To change the camera source, modify the `cv2.VideoCapture(4)` line in `Object detector.py`.
+- To change the camera source, modify the `cv2.VideoCapture(1)` line in `Object detector.py`.
 - Adjust detection confidence and NMS thresholds in the `model.detect()` call for different detection sensitivity.
 
 ## Contributing
